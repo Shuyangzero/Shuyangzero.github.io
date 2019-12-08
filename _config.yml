@@ -75,10 +75,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 ---
-layout: post
-title:  "添加 Disqus 评价系统到 Jekyll"
-categories: Jekyll
-tags: jekyll, disqus
+layout: default
 comments: true
-date: 2017/04/22 09:10:24
+# other options
 ---
