@@ -1,6 +1,6 @@
 # Site settings
-title: Shuyang's Blog
-SEOTitle: Shuyang's Blog
+title: Shuyang Yang's Blog
+SEOTitle: Shuyang Yang's Blog
 header-img: img/post-bg-desk.jpg
 email: wolfsunnygang@gmail.com
 description: "摸鱼的地方"
@@ -12,13 +12,14 @@ github_repo: "https://github.com/Shuyangzero" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "在材料系摸鱼的博士生"
-sidebar-avatar: /img/post-bg-keybord.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/Gilgamesh.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 github_username: Shuyangzero
+linkedin_username: shuyang-yang-055372145
 # weibo_username:     qiubaiying
 #zhihu_username:     qiubaiying
 #github_username:    qiubaiying
