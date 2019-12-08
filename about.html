@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is Shuyang."
+description: "Hey, this is Shuyang Yang."
 header-img: "img/post-bg-rwd.jpg"
 ---
 
@@ -16,7 +16,7 @@ header-img: "img/post-bg-rwd.jpg"
 
     <!--copied from markdown -->
 
-    <p>Hey，我是<strong>Shuyang</strong>，曾就读中科大，在卡耐基梅隆大学学习计算物理和机器学习。</p>
+    <p>Hey，我是<strong>杨叔阳</strong>，曾就读于中科大，在卡耐基梅隆大学学习计算物理和机器学习。</p>
 
 </div>
 
@@ -43,3 +43,26 @@ header-img: "img/post-bg-rwd.jpg"
 
 
 
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}

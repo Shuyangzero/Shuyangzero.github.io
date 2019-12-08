@@ -57,9 +57,8 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+disqus_username: shuyangyang
 
-# Gitalk
 
 
 
@@ -75,8 +74,3 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
-
-
-theme: jekyll-theme-slate
