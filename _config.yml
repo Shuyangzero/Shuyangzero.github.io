@@ -82,10 +82,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "小土刀",
+        href: "https://wdxtub.com/"
     }
 ]
